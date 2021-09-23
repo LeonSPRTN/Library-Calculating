@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Authors>Leonid Polozkov</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Update="LibraryCalculatingArea.Tests\CircleTests.cs">
+        <Link>LibraryCalculatingArea.Test\CircleTests.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+</Project>
